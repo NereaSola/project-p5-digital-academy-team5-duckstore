@@ -276,10 +276,14 @@ footer {
 }
 
 .mapa_border {
-    width: 650px;
-    height: 550px;
-    border: 4 solid skyblue;
+    display: flex;
+    border: 2 solid skyblue;
     margin-right: var(--margin-large);
+
+    & iframe {
+        width: 650px;
+        height: 550px;
+    }
 }
 
 .informacion_contacto {
