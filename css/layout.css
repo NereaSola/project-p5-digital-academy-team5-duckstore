@@ -273,6 +273,12 @@ footer {
     background-color: aquamarine;
     align-items: center;
     justify-content: center;
+
+    & iframe {
+        width: 550;
+        height: 650;
+        border: 2 solid skyblue;
+    }
 }
 
 .informacion_contacto {
