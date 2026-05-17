@@ -259,7 +259,7 @@ footer {
 
 .contacto_contenido {
     display: grid;
-    grid-template-rows: 60% 40%;
+    grid-template-columns: 60% 40%;
     align-items: center;
     justify-content: center;
 }
