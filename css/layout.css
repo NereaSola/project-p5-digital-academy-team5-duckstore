@@ -249,6 +249,9 @@ footer {
     gap: var(--gap-medium);
 }
 
+
+/* === CONTACTO === */
+
 .contacto_section {
     min-height: 90vh;
     background-color: none;
@@ -258,6 +261,7 @@ footer {
 }
 
 .contacto_contenido {
+    width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
