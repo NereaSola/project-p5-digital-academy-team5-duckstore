@@ -276,9 +276,12 @@ footer {
 }
 
 .mapa_border {
-    width: 650;
-    height: 550;
+    width: 650px;
+    height: 550px;
     border: 2 solid skyblue;
+    padding-top: var(--padding-large);
+    padding-right: var(--padding-large);
+    padding-bottom: var(--padding-large);
 }
 
 .informacion_contacto {
