@@ -272,13 +272,13 @@ footer {
     display: flex;
     background-color: aquamarine;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+}
 
-    & iframe {
-        width: 550;
-        height: 650;
-        border: 2 solid skyblue;
-    }
+.mapa_border {
+    width: 650;
+    height: 550;
+    border: 2 solid skyblue;
 }
 
 .informacion_contacto {
