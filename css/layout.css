@@ -251,11 +251,30 @@ footer {
 
 .contacto_section {
     min-height: 90vh;
-    background-color: cyan;
+    background-color: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.contacto_contenido {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    align-items: center;
+    justify-content: center;
+}
 
+.ubicacion_mapa {
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion_contacto {
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
 
