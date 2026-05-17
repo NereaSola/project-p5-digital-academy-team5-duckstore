@@ -249,7 +249,13 @@ footer {
     gap: var(--gap-medium);
 }
 
-
+.contacto_section {
+    min-height: 90vh;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
