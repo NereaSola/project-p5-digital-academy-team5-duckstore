@@ -279,6 +279,8 @@ footer {
     display: flex;
     border: 2 solid skyblue;
     margin-right: var(--margin-large);
+    width: 650px;
+    height: 550px;
 
     & iframe {
         width: 650px;
