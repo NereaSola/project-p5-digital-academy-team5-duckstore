@@ -283,6 +283,7 @@ footer {
     & iframe {
         width: 650px;
         height: 550px;
+        border: none;
     }
 }
 
