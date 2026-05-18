@@ -354,3 +354,13 @@ footer {
         border-radius: var(--border-radius-medium);
     }
 }
+
+.contacto_titulo {
+    color: var(--color-primary-accent);
+    text-align: center;
+    margin-bottom: var(--padding-xlarge);
+    & h1 {
+        font-family: var(--font-family-fantasy);
+        font-size: var(--text-4xl);
+    }
+}
