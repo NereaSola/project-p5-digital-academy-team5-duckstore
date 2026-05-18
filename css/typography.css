@@ -70,16 +70,13 @@ a {
     font-size: var(--text-lg)
 }
 
-/* === NEWSLETTER SECTION ===  */
+/* === CATALOG PAGE === */
 
-.newsletter__title {
-    margin: 0;
-
-    font-size: var(--text-3xl);
+@media (min-width: 768px) {
+    .catalog_header__description {
+        width: 50vh;
+    }
 }
-
-.newsletter__description {}
-
 
 /* === FOOTER ===  */
 
