@@ -78,6 +78,13 @@ a {
     }
 }
 
+/* === DETAIL PAGE === */
+
+.detail__in_stock_info {
+    color: var(--color-secondary-accent);
+    font-weight: 700;
+}
+
 /* === FOOTER ===  */
 
 
