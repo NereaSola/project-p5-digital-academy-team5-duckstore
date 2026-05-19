@@ -1,3 +1,10 @@
+# DUCK STORE
+
+[ENLACE A GITHUB PAGES](https://factoriaf5-asturias.github.io/project-p5-digital-academy-team5-duckstore/)
+
+<br><br>
+
+
 Nerea:
 # PLAN:
 
@@ -14,8 +21,9 @@ Nerea:
 <img src= "./assets/images/mockups/prototipo-home.png">
 
 
-
+<br>
 <br> 
+Daniel:
 
 ## MVP: Home Page | Etapas:
 0. ✅ Cambiar la rama con `dev/home`. 
