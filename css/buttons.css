@@ -88,3 +88,25 @@
     color: var(--color-text-inverted);
 }
 
+/* === BUTTON ACTION EMAIL === */
+.button_action_email {
+    width: 500px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+    margin-right: 50px;
+
+    box-shadow: var(--box-shadow-medium);
+}
+
+.button_action_email:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
