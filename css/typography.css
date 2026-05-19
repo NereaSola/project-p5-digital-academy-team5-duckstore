@@ -85,6 +85,12 @@ a {
     font-weight: 700;
 }
 
+.charasteristics__text {
+    color: var(--color-secondary-accent);
+    font-weight: 700;
+    font-size: var(--text-base);
+}
+
 /* === FOOTER ===  */
 
 

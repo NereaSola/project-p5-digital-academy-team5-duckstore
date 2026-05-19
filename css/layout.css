@@ -437,6 +437,29 @@ footer {
     box-shadow: var(--box-shadow-medium);
 }
 
+.detail__characteristics {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-medium);
+    
+}
+
+.charasteristics__item {
+    background: var(--color-body-background);
+    padding: var(--padding-medium);
+    border-radius: var(--border-radius-medium);
+    box-shadow: var(--box-shadow-medium);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: var(--gap-small);
+}
+
+.charasteristics__icon {
+
+}
 
 @media (min-width: 768px) {
     .detail__container {
