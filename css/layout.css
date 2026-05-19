@@ -418,6 +418,18 @@ footer {
 
 }
 
+.detail__special { /* div */
+    background-color: var(--color-background-special);
+    padding: 4px;
+    border-radius: var(--border-radius-medium);
+    width: 110px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-left: -4px;
+    box-shadow: var(--box-shadow-medium);
+
+}
+
 .detail__description_container {
     background: var(--color-body-background);
     padding: var(--padding-medium);

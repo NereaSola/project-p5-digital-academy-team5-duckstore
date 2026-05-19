@@ -32,6 +32,7 @@
     --color-header-background: #EBFEFE;
     --color-container-background: #d3eafa;
     --color-footer-background: var(--color-container-background);
+    --color-background-special: #d471ff;
 
     --color-card-background: #E3F8F9;
     --color-card-border: #CCCCCC;
