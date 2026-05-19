@@ -99,7 +99,7 @@ header {
     }
 
     .hero__image {
-        height: auto;
+        height: 50vh;
         order: 2;
     }
 }
@@ -108,6 +108,10 @@ header {
     .hero__container {
         padding-right: 10vw;
         padding-left: 10vw;
+    }
+
+    .hero__image {
+        height: 70vh;
     }
 }
 
