@@ -372,9 +372,17 @@ footer {
     min-height: 80vh;
     background-color: var(--color-container-background);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.detail__back_button {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
 
 .detail__container {
     width: 100%;
@@ -383,7 +391,10 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: var(--padding-medium);
+    padding-right: 0;
+    margin-top: 80px;
 }
+
 
 .detail__image {
     height: 40vh;
@@ -417,8 +428,12 @@ footer {
 
 @media (min-width: 768px) {
     .detail__container {
+        justify-content: center;
         flex-direction: row;
-        padding: var(--padding-large);
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     .detail__content {
@@ -441,6 +456,7 @@ footer {
 @media (min-width: 1024px) {
     .detail__container {
         justify-content: center;
+        padding-top: var(--padding-large);
     }
 
     .detail__content {
