@@ -1,12 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckStore | Inicio</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+
 </head>
+
 <body>
     
+    <!-- === HEADER === -->
+    <header>
+        <div class="header__container">
+            <!-- Logo -->
+            <a class="header__logo" href="#">
+                <img height=30 class="header__logo_icon" src="./assets/icons/duck_logo.png">
+                DuckStore
+            </a>
+
+            <!-- Navigation -->
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li><a class="navigation__link" href="./index.html">Inicio</a></li>
+                    <li><a class="navigation__link" href="./pages/catalog.html">Catálogo</a></li>
+                    <li><a class="navigation__link" href="./pages/contact.html">Contactar</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__hidden_object"></div> <!-- para hacer navegacion en medio de header -->
+        </div>
+    </header>
+
+    <!-- === MAIN CONTENT === -->
+    <main class="main__content">
+        <!-- HERO SECTION -->
+        <section class="hero_section">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Los patitos de goma más cool del mundo</h1>
+                    <p class="hero__description">Descubre nuestra colección de patitos de goma más adorables y únicos del
+                        mercado.</p>
+                    <a href="./pages/catalog.html">
+                        <div id="hero__button" class="button_action_big">Comprar ahora</div>
+                    </a>
+                </div>
+                <img class="hero__image" src="./assets/images/inicio.png" alt="Big Duck Image" />
+            </div>
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+        <section class="products_section">
+            <div class="products__container">
+                <div class="products__header">
+                    <h2 class="products_header__title">Nuestros productos</h2>
+                    <!-- <a href="#">
+                        <div id="products__button_view_all" class="button_common">View all</div>
+                    </a> -->
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products__list">
+                    <div class="product__card">
+                        <img class="product__image" src="./assets/images/duck_1.png" alt="Product 1" />
+                        <div class="product_card__content">
+                            <h3 class="product__title">Duck #3172</h3>
+                            <p class="product__description">Un patito de goma adorable y único.</p>
+                            <span class="product__price">€579.99</span>
+                        </div>
+                        <a href="./pages/detail.html">
+                            <div id="product_button" class="button_action_secondary">
+                                Ver
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__image" src="./assets/images/duck_4.png" alt="Product 2" />
+                        <div class="product_card__content">
+                            <h3 class="product__title">Duck #3173</h3>
+                            <p class="product__description">Un patito de goma adorable y único.</p>
+                            <span class="product__price">€499.99</span>
+                        </div>
+                        <a href="./pages/detail.html">
+                            <div id="product_button" class="button_action_secondary">
+                                Ver
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__image" src="./assets/images/duck_3.png" alt="Product 3" />
+                        <div class="product_card__content">
+                            <h3 class="product__title">Duck #3174</h3>
+                            <p class="product__description">Un patito de goma adorable y único.</p>
+                            <span class="product__price">€399.99</span>
+                        </div>
+                        <a href="./pages/detail.html">
+                            <div id="product_button" class="button_action_secondary">
+                                Ver
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__image" src="./assets/images/duck_2.png" alt="Product 4" />
+                        <div class="product_card__content">
+                            <h3 class="product__title">Duck #3175</h3>
+                            <p class="product__description">Un patito de goma adorable y único.</p>
+                            <span class="product__price">€299.99</span>
+                        </div>
+                        <a href="./pages/detail.html">
+                            <div id="product_button" class="button_action_secondary">
+                                Ver
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- === FOOTER === -->
+    <footer>
+        <div class="footer__container">
+            <!-- Footer Content -->
+            <div class="footer__content">
+                <!-- Logo -->
+                <a class="footer__logo" href="#">
+                    <img height=30 class="footer__logo_icon" src="./assets/icons/duck_logo.png">
+                    Duck Store
+                </a>
+                <p class="footer__description">Tu tienda para todo lo relacionado con los patos.</p>
+                <p class="footer__copyright">&copy; 2026 Duck Store. Todos los derechos reservados.</p>
+            </div>
+          
+            <div></div>
+            <!-- Socials -->
+            <div class="footer__socials">
+                <a class="footer__social_icon" target="_blank" href="https://www.facebook.com">Facebook</a>
+                <a class="footer__social_icon" target="_blank" href="https://www.instagram.com">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

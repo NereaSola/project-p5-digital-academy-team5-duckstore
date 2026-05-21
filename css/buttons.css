@@ -1,0 +1,112 @@
+/* !!! BUTTON IS A DIV ELEMENT !!! */
+
+/* === BUTTON ACTION === */
+.button_action {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-light);
+}
+
+.button_action:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
+
+
+/* === BUTTON ACTION BIG === */
+.button_action_big {
+    padding: var(--padding-medium);
+    width: 150px;
+    
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    
+    text-align: center;
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-medium);
+}
+
+.button_action_big:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
+
+/* === BUTTON COMMON === */
+
+.button_common {
+    background-color: var(--color-button-common);
+    color: var(--color-text);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-light);
+}
+
+.button_common:hover {
+    background-color: var(--color-button-common-accent);
+    color: var(--color-text-inverted);
+}
+
+/* === BUTTON ACTION SECONDARY === */
+
+.button_action_secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-text-inverted);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-large);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-medium);
+}
+
+.button_action_secondary:hover {
+    background-color: var(--color-secondary-accent);
+    color: var(--color-text-inverted);
+}
+
+/* === BUTTON ACTION EMAIL === */
+.button_action_email {
+    width: 500px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+    margin-right: 50px;
+
+    box-shadow: var(--box-shadow-medium);
+}
+
+.button_action_email:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}

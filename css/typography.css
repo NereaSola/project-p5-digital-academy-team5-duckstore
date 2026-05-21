@@ -1,0 +1,125 @@
+body {
+    font-family: var( --font-family-body);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family-heading);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* === HEADER === */
+
+.header__logo {
+    font-family: var(--font-family-fantasy);
+    font-size: var(--text-3xl);
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__logo_icon {
+    margin-right: -5px;
+    margin-bottom: -3px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-base);
+}
+
+.navigation__link:hover {
+    color: var(--color-secondary-accent);
+    text-decoration: underline;
+}
+
+/* === HERO SECTION === */
+
+.hero__title {
+    font-size: var(--text-5xl)
+}
+
+.hero__description {
+    font-size: var(--text-lg);
+    margin-right: var(--margin-medium);
+}
+
+/* === PRODUCTS SECTION === */
+
+.products_header__title {
+    font-size: var(--text-2xl);
+}
+
+.product__title {
+    font-size: var(--text-xl);
+}
+
+.product__description {
+    font-size: var(--text-base);
+}
+
+.product__price {
+    font-family: var(--font-family-monospace);
+    font-weight: 700;
+    font-size: var(--text-lg)
+}
+
+/* === CATALOG PAGE === */
+
+@media (min-width: 768px) {
+    .catalog_header__description {
+        width: 50vh;
+    }
+}
+
+/* === DETAIL PAGE === */
+
+.detail__in_stock_info {
+    color: var(--color-secondary-accent);
+    font-weight: 700;
+}
+
+.charasteristics__text {
+    color: var(--color-secondary-accent);
+    font-weight: 700;
+    font-size: var(--text-base);
+}
+
+/* === FOOTER ===  */
+
+
+footer {
+    color: var(--color-secondary);
+
+    a {
+        color: var(--color-secondary);
+    }
+}
+
+.footer__logo {
+    font-family: var(--font-family-fantasy);
+    font-size: var(--text-xl);
+    color: var(--color-secondary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer__logo_icon {
+    display: none;
+    margin-right: -5px;
+    margin-bottom: -3px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__social_icon:hover {
+    text-decoration: underline;
+}

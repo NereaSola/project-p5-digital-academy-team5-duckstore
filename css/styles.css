@@ -1,8 +1,109 @@
-@import "./reset.css";
-@import "./layout.css";
-@import "./typography.css";
+@import url("./reset.css");
+@import url("./layout.css");
+@import url("./typography.css");
+@import url("./buttons.css");
 
+
+@font-face {
+    font-family: 'Google Sans Flex Bold';
+    src: url('../assets/fonts/GoogleSansFlex_72pt-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex Light';
+    src: url('../assets/fonts/GoogleSansFlex_72pt-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex Regular';
+    src: url('../assets/fonts/GoogleSansFlex_72pt-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
 
 :root {
-    --color-backgound: #ffffff;
+
+    /* === Colors === */
+    --color-body-background: #EBFEFE;
+    --color-header-background: #EBFEFE;
+    --color-container-background: #d3eafa;
+    --color-footer-background: var(--color-container-background);
+    --color-background-special: #d471ff;
+
+    --color-card-background: #E3F8F9;
+    --color-card-border: #CCCCCC;
+    --color-card-newsletter-background: #F5E06E;
+
+    --color-primary: #F3D963;
+    --color-secondary: #3D637A;
+    
+    --color-button-common: #B6DEFA;
+    --color-button-common-accent: #6bc1ff;
+
+    --color-text: #000000;
+    --color-primary-accent: #f4c700;
+    --color-secondary-accent: #00619e;
+    --color-text-inverted: #FFFFFF;
+
+    --color-link: #FF6F61;
+    --color-link-hover: #FF3B2E;
+    --color-link-active: #FF6F61;
+    --color-link-visited: #FF6F61;
+    --color-link-focus: #FF6F61;
+    --color-link-disabled: #CCCCCC;
+
+
+    /* === Layout === */
+    --margin-small: 10px;
+    --margin-medium: 20px;
+    --margin-large: 30px;
+
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 30px;
+    --padding-xlarge: 50px;
+
+    --gap-small: 10px;
+    --gap-medium: 20px;
+    --gap-large: 30px;
+
+    --border-radius-small: 5px;
+    --border-radius-medium: 15px;
+    --border-radius-large: 25px;
+    --border-radius-xlarge: 50px;
+
+
+    --border: 1px solid var(--color-card-border);
+    --border-primary: 1px solid var(--color-primary);
+    --border-secondary: 1px solid var(--color-secondary);
+
+    --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --box-shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.3);
+    
+    --box-shadow-inner: inset 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    
+    /* === Typography === */
+    
+    --font-family-body: 'Google Sans Flex Regular', sans-serif;
+    --font-family-heading: 'Google Sans Flex Bold', sans-serif;
+    --font-family-monospace: 'Google Sans Flex Bold', monospace;
+    --font-family-fantasy: 'Impact', fantasy;
+    
+    --text-xs: 0.75rem;     /* 12px */
+    --text-sm: 0.875rem;    /* 14px */
+    --text-base: 1rem;      /* 16px */
+    --text-lg: 1.125rem;    /* 18px */
+    --text-xl: 1.25rem;     /* 20px */
+    --text-2xl: 1.5rem;     /* 24px */
+    --text-3xl: 1.875rem;   /* 30px */
+    --text-4xl: 2.25rem;    /* 36px */
+    --text-5xl: 3rem;       /* 48px */
+
+
 }
