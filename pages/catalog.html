@@ -6,6 +6,7 @@
     <title>DuckStore | Catálogo</title>
 
     <link rel="stylesheet" href="../css/styles.css">
+    
 </head>
 <body>
      <!-- === HEADER === -->
@@ -46,112 +47,8 @@
             </p>
             
            </div> 
-           <div class="products__list">
-            <div class="product__card">
-                        <img class="product__image" src="../assets/images/duck_1.png" alt="Product 1" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Duck #3172</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€579.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/duck_4.png" alt="Product 2" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Duck #3173</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€499.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/duck_3.png" alt="Product 3" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Duck #3174</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€399.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/duck_2.png" alt="Product 4" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Duck #3175</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€299.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/detective.png" alt="Product 1" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Detective</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€579.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/rockera.png" alt="Product 2" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Rockera</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€499.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/Super.png" alt="Product 3" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Super</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€399.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-                    <div class="product__card">
-                        <img class="product__image" src="../assets/images/Graduado.png" alt="Product 4" />
-                        <div class="product_card__content">
-                            <h3 class="product__title">Gradudado</h3>
-                            <p class="product__description">Un patito de goma adorable y único.</p>
-                            <span class="product__price">€299.99</span>
-                        </div>
-                        <a href="./detail.html">
-                            <div id="product_button" class="button_action_secondary">
-                                Ver
-                            </div>
-                        </a>
-                    </div>
-
+           <div class="products__list" id="catalog__list">
+            
            </div>
            </div>
         </section>
@@ -181,5 +78,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="../assets/js/renderCatalog.js"></script>
 </body>
 </html>
