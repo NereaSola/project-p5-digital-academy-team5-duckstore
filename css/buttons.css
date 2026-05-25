@@ -20,6 +20,16 @@
     color: var(--color-text-inverted);
 }
 
+.button_cart {
+    display: inline-flex;
+    gap: var(--gap-small);
+}
+
+.button_cart:hover img {
+    filter: brightness(0) invert(1); /* делает иконку белой */
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
 
 /* === BUTTON ACTION BIG === */
 .button_action_big {
