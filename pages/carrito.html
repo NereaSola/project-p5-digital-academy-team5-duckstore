@@ -2,110 +2,29 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Duckstore - Carrito</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                "surface-dim": "#cfdaf1",
-                "on-primary-fixed-variant": "#124d60",
-                "error-container": "#ffdad6",
-                "on-secondary-container": "#765e00",
-                "on-secondary-fixed-variant": "#574500",
-                "inverse-surface": "#263142",
-                "on-background": "#111c2c",
-                "surface-container-high": "#dee8ff",
-                "secondary": "#735c00",
-                "primary": "#0d4a5d",
-                "outline": "#71787c",
-                "on-error-container": "#93000a",
-                "secondary-fixed-dim": "#e7c34f",
-                "surface": "#f9f9ff",
-                "surface-container-low": "#f0f3ff",
-                "surface-tint": "#306579",
-                "on-error": "#ffffff",
-                "tertiary-fixed": "#d1e7e4",
-                "inverse-on-surface": "#ebf1ff",
-                "tertiary-fixed-dim": "#b5cbc8",
-                "outline-variant": "#c0c8cc",
-                "surface-bright": "#f9f9ff",
-                "on-primary-fixed": "#001f29",
-                "on-tertiary-container": "#c4d9d7",
-                "surface-container-lowest": "#ffffff",
-                "tertiary": "#354846",
-                "primary-fixed": "#bbe9ff",
-                "on-tertiary": "#ffffff",
-                "primary-fixed-dim": "#9bcee5",
-                "on-surface-variant": "#40484c",
-                "surface-container": "#e7eeff",
-                "tertiary-container": "#4c605e",
-                "error": "#ba1a1a",
-                "on-secondary": "#ffffff",
-                "on-tertiary-fixed": "#0b1f1d"
-            },
-            "borderRadius": {
-                "DEFAULT": "0.25rem",
-                "lg": "0.5rem",
-                "xl": "0.75rem",
-                "full": "9999px"
-            },
-            "spacing": {
-                "margin-x-mobile": "20px",
-                "stack-sm": "12px",
-                "gutter": "24px",
-                "margin-x-desktop": "64px",
-                "stack-lg": "48px",
-                "base": "8px",
-                "container-max": "1200px",
-                "stack-md": "24px"
-            },
-            "fontFamily": {
-                "display-lg-mobile": ["Plus Jakarta Sans"],
-                "headline-md": ["Plus Jakarta Sans"],
-                "body-lg": ["Plus Jakarta Sans"],
-                "display-lg": ["Plus Jakarta Sans"],
-                "label-bold": ["Plus Jakarta Sans"],
-                "body-md": ["Plus Jakarta Sans"],
-                "caption": ["Plus Jakarta Sans"]
-            },
-            "fontSize": {
-                "display-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "800"}],
-                "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "700"}],
-                "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                "display-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "800"}],
-                "label-bold": ["14px", {"lineHeight": "1.2", "fontWeight": "700"}],
-                "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                "caption": ["12px", {"lineHeight": "1.2", "fontWeight": "500"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        body {
-            background-color: #f9f9ff;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            -webkit-tap-highlight-color: transparent;
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .cart-card-shadow {
-            box-shadow: 0 20px 40px rgba(13, 74, 93, 0.06);
-        }
-        .animate-pop {
-            animation: pop 0.3s ease-out;
-        }
-        @keyframes pop {
-            0% { transform: scale(0.95); opacity: 0; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-    </style>
+<link rel="stylesheet" href="../css/styles.css">
+  <!-- === HEADER === -->
+    <header>
+        <div class="header__container">
+            <!-- Logo -->
+            <a class="header__logo" href="#">
+                <img height=30 class="header__logo_icon" src="../assets/icons/duck_logo.png">
+                DuckStore
+            </a>
+
+            <!-- Navigation -->
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li><a class="navigation__link" href="../index.html">Inicio</a></li>
+                    <li><a class="navigation__link" href="./catalog.html">Catálogo</a></li>
+                    <li><a class="navigation__link" href="./contact.html">Contactar</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__hidden_object"></div> <!-- para hacer navegacion en medio de header -->
+        </div>
+    </header>
+
 </head>
 <body class="bg-surface">
 <!-- Top AppBar (JSON Derived) -->
@@ -270,5 +189,30 @@
         }
     </style>
 
+  
 
-</body></html>
+
+</body>
+
+ <footer>
+        <div class="footer__container">
+            <!-- Footer Content -->
+            <div class="footer__content">
+                <!-- Logo -->
+                <a class="footer__logo" href="#">
+                    <img height=30 class="footer__logo_icon" src="./assets/icons/duck_logo.png">
+                    Duck Store
+                </a>
+                <p class="footer__description">Tu tienda para todo lo relacionado con los patos.</p>
+                <p class="footer__copyright">&copy; 2026 Duck Store. Todos los derechos reservados.</p>
+            </div>
+         
+            <div></div>
+            <!-- Socials -->
+            <div class="footer__socials">
+                <a class="footer__social_icon" href="#">Facebook</a>
+                <a class="footer__social_icon" href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</html>
