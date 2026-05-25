@@ -78,6 +78,19 @@ a {
     font-size: var(--text-base);
 }
 
+/* === CART === */
+
+@media (min-width: 768px) {
+    .cart_header__description {
+        width: 50vh;
+    }
+}
+
+/* .cart_header__title {} */
+
+
+
+
 /* === FOOTER ===  */
 
 
