@@ -1,6 +1,4 @@
 import { patitos } from "../db/patitosdb.js";
-console.log("renderCart: connected")
-
 const cartList = document.querySelector(".cart__list");
 
 
@@ -21,7 +19,6 @@ filteredItems.forEach((patito) => {
             <img class="cart__image" src="${patito.image}" alt="${patito.name}" />
             <div class="cart_card__content">
                 <h3 class="cart__title">${patito.title}</h3>
-                <p class="cart__description">${patito.description}</p>
                 <span class="cart__price">€${patito.price}</span>
             </div>
             <div class="cart_item__counter">
@@ -38,3 +35,38 @@ filteredItems.forEach((patito) => {
     `
 });
 
+
+
+// === CHECKOUT CONTAINER ===
+let totalPrice = 0
+
+filteredItems.forEach((patito) => {
+    totalPrice += patito.price;
+})
+
+totalPrice = totalPrice.toFixed(2);
+
+const checkoutContainer = document.querySelector('.cart__checkout_container');
+
+checkoutContainer.innerHTML += `
+    <h2>Resumen</h2>
+    <div>
+        <span>Subtotal:</span>
+        <span>€${totalPrice}</span>
+    </div>
+    <div>
+        <span>Envío:</span>
+        <span style="color: green;">Gratis</span>
+    </div>
+    <div class="cart__checkout_separator"></div>
+    <div class="cart__checkout_total">
+        <span>Total:</span>
+        <span>€${totalPrice}</span>
+    </div>
+
+    <a class="cart__checkout_button" href="../../pages/compra_realizada.html">
+        <div class="button_action">
+            Finalizar Compra
+        </div>
+    </a>
+`

@@ -88,8 +88,15 @@ a {
 
 /* .cart_header__title {} */
 
+.cart__title {
+    margin: 0;
+}
 
+/* .cart__price {} */
 
+.cart__checkout_total {
+    font-family: var(--font-family-heading);
+}
 
 /* === FOOTER ===  */
 
