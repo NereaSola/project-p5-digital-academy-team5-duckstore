@@ -1,6 +1,8 @@
 import { patitos } from "../db/patitosdb.js";
 
-const patito = patitos[0]
+const patitoSeleccionado = localStorage.getItem("patitoSeleccionado");
+
+const patito = patitos[patitoSeleccionado];
 
 const detailContainer = document.querySelector(".detail__container");
 
@@ -11,7 +13,7 @@ detailContainer.innerHTML += `
                         Edición special
                     </div>
                     <h1>${patito.name}</h1>
-                    <h3>${patito.price}</h3>
+                    <h3>€${patito.price}</h3>
                     <div class="detail__description_container">
                         <p>${patito.description}</p>
                     </div>
