@@ -2,44 +2,6 @@ body {
     background-color: var(--color-body-background);
 }
 
-/* === HEADER === */
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: var(--color-header-background);
-    box-shadow: var(--box-shadow-light);
-}
-
-.header__container {
-    padding: var(--padding-medium);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-grow: 1;
-}
-
-
-.navigation__list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap-medium);
-    margin: 0;
-    padding: 0;
-}
-
-.header__hidden_object {
-    display: none;
-    width: 140px;
-}
-
-@media (min-width: 768px) {
-    .header__hidden_object {
-        display: block;
-    }
-}
 
 
 /* === HERO SECTION === */

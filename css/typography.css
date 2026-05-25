@@ -14,19 +14,6 @@ a {
 
 /* === HEADER === */
 
-.header__logo {
-    font-family: var(--font-family-fantasy);
-    font-size: var(--text-3xl);
-    color: var(--color-primary-accent);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.header__logo_icon {
-    margin-right: -5px;
-    margin-bottom: -3px;
-}
-
 .navigation__link {
     text-decoration: none;
     color: var(--color-secondary);

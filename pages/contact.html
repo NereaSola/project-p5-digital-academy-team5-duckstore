@@ -14,7 +14,7 @@
             <!-- Logo -->
             <a class="header__logo" href="#">
                 <img height=30 class="header__logo_icon" src="../assets/icons/duck_logo.png">
-                DuckStore
+                <span>DuckStore</span>
             </a>
 
             <!-- Navigation -->
@@ -25,10 +25,31 @@
                     <li><a class="navigation__link" href="./contact.html">Contactar</a></li>
                 </ul>
             </nav>
-            
-            <div class="header__hidden_object"></div> <!-- para hacer navegacion en medio de header -->
+
+            <!-- Hamberger -->
+            <div class="header__hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="header__mobile_menu" id="mobileMenu">
+                <a class="navigation__link" href="../index.html">Inicio</a>
+                <a class="navigation__link" href="./catalog.html">Catálogo</a>
+                <a class="navigation__link" href="./contact.html">Contactar</a>
+            </nav>
+
+
+            <!-- Cart Button -->
+            <a href="./cart.html">
+                <dev class="button_action button_cart">
+                    <img src="../assets/icons/cart.svg" />
+                    <span>Carrita</span>
+                </dev>
+            </a>
         </div>
-    </header>
+        <script src="../assets/js/headerHamberger.js"></script>
+    </header> 
 
     <!-- === MAIN CONTENT === -->
     <main>
