@@ -37,8 +37,9 @@ detailContainer.innerHTML += `
                         </div>
                     </div>
 
-                    // ANADIR UN BOTON "ANADIR A CARRITO" POR AQUI
                     
+                    // ANADIR UN BOTON "ANADIR A CARRITO" POR AQUI
+
                 </div>
 `
 
