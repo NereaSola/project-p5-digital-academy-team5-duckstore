@@ -20,6 +20,105 @@
     color: var(--color-text-inverted);
 }
 
+/* === BUTTONS CART === */
+.button_cart {
+    display: inline-flex;
+    gap: var(--gap-small);
+}
+
+.button_cart:hover img {
+    filter: brightness(0) invert(1); /* делает иконку белой */
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.button_checkout {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-xl);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-light);
+}
+
+.button_checkout:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
+
+.button_checkout_back {
+    background-color: var(--color-button-common);
+    color: var(--color-text);
+    padding: var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-xl);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-light);
+}
+
+.button_checkout_back:hover {
+    background-color: var(--color-button-common-accent);
+    color: var(--color-text-inverted);
+}
+
+.cart_item__plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: var(--border-radius-medium);
+    padding: 4px;
+}
+
+.cart_item__menos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: var(--border-radius-medium);
+    padding: 4px;
+}
+
+.cart_item__plus:hover {
+    background-color: var(--color-secondary-accent);
+    box-shadow: var(--box-shadow-medium);
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.cart_item__plus:hover img {
+    filter: brightness(0) invert(1); /* делает иконку белой */
+}
+
+.cart_item__menos:hover {
+    background-color: var(--color-secondary-accent);
+    box-shadow: var(--box-shadow-medium);
+    border-radius: var(--border-radius-medium);
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.cart_item__menos:hover img {
+    filter: brightness(0) invert(1); /* делает иконку белой */
+}
+
+.cart_item__plus:active {
+    background-color: var(--color-primary-accent);
+}
+
+.cart_item__menos:active {
+    background-color: var(--color-primary-accent);
+}
 
 /* === BUTTON ACTION BIG === */
 .button_action_big {

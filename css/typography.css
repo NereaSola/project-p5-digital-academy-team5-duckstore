@@ -14,19 +14,6 @@ a {
 
 /* === HEADER === */
 
-.header__logo {
-    font-family: var(--font-family-fantasy);
-    font-size: var(--text-3xl);
-    color: var(--color-primary-accent);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.header__logo_icon {
-    margin-right: -5px;
-    margin-bottom: -3px;
-}
-
 .navigation__link {
     text-decoration: none;
     color: var(--color-secondary);
@@ -89,6 +76,26 @@ a {
     color: var(--color-secondary-accent);
     font-weight: 700;
     font-size: var(--text-base);
+}
+
+/* === CART === */
+
+@media (min-width: 768px) {
+    .cart_header__description {
+        width: 50vh;
+    }
+}
+
+/* .cart_header__title {} */
+
+.cart__title {
+    margin: 0;
+}
+
+/* .cart__price {} */
+
+.cart__checkout_total {
+    font-family: var(--font-family-heading);
 }
 
 /* === FOOTER ===  */
