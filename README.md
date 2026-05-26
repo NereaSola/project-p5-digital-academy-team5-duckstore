@@ -4,40 +4,66 @@
 
 <br><br>
 
+# DuckStore
 
-Nerea:
-# PLAN:
+DuckStore es una página web de comercio electrónico centrada en la venta de patitos de goma personalizados. El proyecto permite visualizar productos, consultar detalles básicos y gestionar un carrito de compra de forma sencilla.
 
-1. Crear mockups en Google Stitch
-2. Modificarlos en Figma para hacer imagenes de los bloques de sitio web. 
-3. Crear un presentación en Canvas
-4. Generar la historia de usuario
-5. Realizar la estructura de Repositorio en GitHub
-6. Desarrollo de la página web en HTML y CSS
+## Descripción del proyecto
 
-## PROTOTIPOS:
+La web simula una tienda online con estética sencilla y visual, donde los productos principales son distintos modelos de patitos de goma, como patitos clásicos, chef, rey o astronauta.
 
-<img src= "./assets/images/mockups/wireframe-home.png">
-<img src= "./assets/images/mockups/prototipo-home.png">
+El objetivo del proyecto es practicar la creación de una página web funcional, organizada y orientada a la experiencia de usuario, incorporando navegación, catálogo de productos y carrito.
 
+## Funcionalidades principales
 
-<br>
-<br> 
-Daniel:
+- Visualización de productos en formato catálogo.
+- Tarjetas de producto con imagen, nombre, descripción breve, precio y botón de acceso.
+- Página o sección de carrito de compra.
+- Navegación entre secciones principales: inicio, catálogo y contacto.
+- Diseño visual basado en colores suaves y estructura clara.
+- Presentación de productos destacados.
 
-## MVP: Home Page | Etapas:
-0. ✅ Cambiar la rama con `dev/home`. 
-1. ✅ Crear una estructura en `index.html`. 
-2. ✅ Añadir las imagenes. 
-3. ✅ Añadir los textos.
-4. ✅ Crear las clases de elementos.
-5. ✅ Añadir variables de estilos en `styles.css`.
-6. ✅ Añadir los estilos a `layout.css` y `buttons.css`.
-    1. ✅ Header
-    2. ✅ Hero Section
-    3. ✅ Products Section
-    4. ✅ Newsletter Section
-    5. ✅ Footer 
-7. ✅ Añadir estilos de tipografía en `typography.css`.
-8. ✅ Despliegue MVP a GitHub Pages. 
+## Estructura de la web
+
+La página cuenta con varias zonas principales:
+
+### Inicio
+
+Página principal donde se presenta la tienda y algunos productos destacados.
+
+### Catálogo
+
+Sección donde se muestran los productos disponibles mediante tarjetas. Cada producto incluye:
+
+- Imagen del producto.
+- Nombre.
+- Descripción breve.
+- Precio.
+- Botón para ver más información.
+
+### Carrito
+
+Sección destinada a mostrar los productos seleccionados por el usuario, incluyendo nombre, precio y cantidad.
+
+### Contacto
+
+Apartado pensado para que el usuario pueda contactar con la tienda.
+
+## Productos incluidos
+
+Algunos de los productos visibles en la web son:
+
+- Patito de Goma Clásico.
+- Patito Chef.
+- Patito Rey.
+- Patito Astronauta.
+- Otros modelos personalizados de patitos de goma.
+
+## Tecnologías utilizadas
+
+El proyecto puede haberse desarrollado con tecnologías web básicas como:
+
+- HTML5.
+- CSS3.
+- JavaScript.
 
