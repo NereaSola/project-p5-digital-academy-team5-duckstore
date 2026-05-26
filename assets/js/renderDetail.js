@@ -36,6 +36,9 @@ detailContainer.innerHTML += `
                             <span class="charasteristics__text">Garantía Duck</span>
                         </div>
                     </div>
+
+                    // ANADIR UN BOTON "ANADIR A CARRITO" POR AQUI
+                    
                 </div>
 `
 

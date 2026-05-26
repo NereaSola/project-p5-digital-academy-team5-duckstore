@@ -22,13 +22,13 @@ filteredItems.forEach((patito) => {
                 <span class="cart__price">€${patito.price}</span>
             </div>
             <div class="cart_item__counter">
-                <div class="cart_item__plus">
-                    <img src="../assets/icons/plus.svg" alt="+" />
+                <div class="cart_item__menos">
+                    <img src="../assets/icons/menos.svg" alt="-" />
                 </div>
                 <!-- Añadir funcionalidad para mostrar cantidad de patitos unicos. -->
                 <span>${selectedQuantities[patito.id]}</span>
-                <div class="cart_item__menos">
-                    <img src="../assets/icons/menos.svg" alt="-" />
+                <div class="cart_item__plus">
+                    <img src="../assets/icons/plus.svg" alt="+" />
                 </div>
             </div>
         </div>
@@ -50,25 +50,32 @@ const checkoutContainer = document.querySelector('.cart__checkout_container');
 
 checkoutContainer.innerHTML += `
     <h2>Resumen</h2>
-    <div>
+    <div class="cart__checkout_row">
         <span>Subtotal:</span>
         <span>€${totalPrice}</span>
     </div>
-    <div>
+    <div class="cart__checkout_row">
         <span>Envío:</span>
         <span style="color: green;">Gratis</span>
     </div>
     <div class="cart__checkout_separator"></div>
-    <div class="cart__checkout_total">
+    <div  class="cart__checkout_row cart__checkout_total">
         <span>Total:</span>
         <span>€${totalPrice}</span>
     </div>
 
-    <a class="cart__checkout_button" href="../../pages/compra_realizada.html">
-        <div class="button_action">
-            Finalizar Compra
-        </div>
-    </a>
+    <div class="cart__checkout_buttons">
+        <a class="cart__back_button" href="../../pages/compra_realizada.html">
+            <div class="button_checkout_back">
+                Volver
+            </div>
+        </a>
+        <a class="cart__checkout_button" href="../../pages/compra_realizada.html">
+            <div class="button_checkout">
+                Comprar
+            </div>
+        </a>
+    </div>
 `
 
 
